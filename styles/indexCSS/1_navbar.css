@@ -1,0 +1,91 @@
+/* NAVBAR =================================== */
+#header {
+    background-color: #333;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    /* box-shadow: 0px 0px 100px 12px #000000b0; */
+    border-bottom: 1px solid #62626244;
+    z-index: 100;
+}
+.logo {
+    position: absolute;
+    line-height: 60px;
+    left: 1.5rem;
+    
+}
+.logo img {
+    width: 55px;
+    padding: 0,5px;
+    margin: 7px 0px;
+    
+}
+.nav-bar {
+    background: #00ffff00;
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+.MenuDesptok {
+    position: absolute;
+    margin-right: 18px;
+    right: 0.000001px;
+    z-index: 10;
+}
+.MenuDesptok li {
+    display: inline-block;
+    line-height: calc(60px - 2px);
+    margin: 0 0px;
+}
+.MenuDesptok li a {
+    color: #ffb700;
+    font-size: 14px;
+    padding: 10px 13px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+/*qweqweqeqweqeqwe*/
+#btnMenuToggle{
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 27px;
+}
+.btn-Button{
+    position: absolute;
+    right: 2rem;
+    line-height: 60px;
+    font-size: 25px;
+    display: none;
+}
+/*ijfsdjflskjfskdlflskdf*/
+
+.menuBurger {
+    position: fixed;
+    width: 20rem;
+    height: 100vh;
+    background: #222;
+    top: 60px;
+    right: -190%;
+    text-align: center;
+    transition: all 0.5s ease-out;
+    z-index: 10;
+    display: none;
+}
+.menuBurger li{
+    padding: 3px;
+    margin: 44px 5px;
+}
+.menuBurger li a {
+    padding: 2px;
+    color: #ffb700;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.menuActivo{
+    top: 60px;
+    right: 0px;
+}
+
+
+

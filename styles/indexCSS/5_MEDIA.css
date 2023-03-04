@@ -1,0 +1,198 @@
+
+/* ZONA DE RESPONSIVE @MEDIA SCREEN=====================================
+============================================================================
+===========================================================
+====================================== */
+@media screen and (max-width: 1180px){
+}
+@media screen and (max-width: 930px){
+}
+@media (max-width: 952px) {
+}
+@media screen and (max-width: 833px) {
+    .curso {
+        width: calc(25% - 70px);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    .titulo-curso h4{
+        font-size: 15px;
+    }
+    .titulo-curso img{
+        width: 1px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .btn-Button{
+        display: block;
+    }
+    .MenuDesptok{
+        display: none;
+    }
+    .menuBurger{
+        display: block;
+    }
+    #contenedor-descripcion-intro p {
+        font-size: 15.7px;
+        margin: 10px 22px 10px 12px;
+    }
+    #contenedor-descripcion-intro h4 {
+        font-size: 22px;
+        margin: 10px 22px 18px 12px;
+    }
+    .curso {
+        width: calc(25% - 60px);
+    }
+}
+@media screen and (max-width: 650px) {
+    .titulo-curso h4 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 600px) {
+    /* NAV BAR */
+    .links-box {
+        display: none;
+    }
+    /* INTRO */
+    .introclaseHTML {
+        height: 700px;
+        align-items: start;
+        display: block;
+    }
+    #contenedor-img-intro {
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+    }
+    #contenedor-img-intro img {
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        margin: 30px 0px;
+    }
+    #contenedor-descripcion-intro {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    #contenedor-descripcion-intro h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+    #contenedor-descripcion-intro p {
+        font-size: 15px;
+        text-align: center;
+    }
+    /* cursos */
+    .curso {
+        width: calc(33% - 40px);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 25px;
+    }
+}
+@media (max-width: 600px) {
+}
+@media screen and (max-width: 480px) {
+    .curso {
+        width: calc(40% - 40px);
+    }
+    #footer-logo img {
+        width: 50px;
+    }
+    #footer-logo h4 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .menuBurger{
+        width: 17rem;
+    }
+    .media-account {
+        height: auto;
+    }
+    #footer-logo img {
+        width: 50px;
+    }
+    #footer-logo h4 {
+        font-size: 14px;
+        margin: 0px 10px 0px 15px;
+    }
+    .social-media-content {
+        padding: 2.8px;
+    }
+    .social-media-content a img {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .menuBurger{
+        width: 100%;
+    }
+}
+
+
+/* Ajustando la pantalla a 320 ======================= */
+@media screen and (max-width: 350px) {
+    .menuBurger{
+        width: 100%;
+    }
+    .introclaseHTML {
+        height: 500px;
+    }
+    #contenedor-img-intro img {
+        margin: 0px;
+    }
+    #contenedor-descripcion-intro h4 {
+        font-size: 16px;
+    }
+    #contenedor-descripcion-intro p {
+        font-size: 13px;
+    }
+    .curso {
+        width: calc(49% - 40px);
+    }
+    .curso p {
+        font-size: 9px;
+    }
+
+    .curso h4 {
+        font-size: 10px;
+    }
+    .titulo-curso img {
+        width: 20px;
+    }
+    #titulo-de-cursos h4 {
+        /* background-color: aqua; */
+        font-size: 19px;
+    }
+    #footer-logo {
+        width: 100%;
+    }
+    #social-meadia {
+        width: 100%;
+        justify-content: center;
+        gap: 30px;
+        height: 45px;
+    }
+    #footer-logo img {
+        width: 44px;
+    }
+    #footer-logo h4 {
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+}
+/* Ajustando la pantalla a 225 ======================= */
+@media screen and (max-width: 225px) {
+    #descripcion-copy p {
+        font-size: 11px;
+        padding: 0;
+        margin: 0;
+    }
+}

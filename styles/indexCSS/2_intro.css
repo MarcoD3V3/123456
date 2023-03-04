@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Gajraj+One&family=Poppins:ital,wght@0,300;0,400;0,600;0,900;1,100;1,400;1,900&display=swap");
+/*INTRO+++++++++++++++++++  */
+.intro {
+    background-color: #444;
+    width: 100%;
+    backdrop-filter: blur(1px);
+}
+
+.introclaseHTML {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    flex-wrap: wrap;
+}
+#contenedor-img-intro {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px;
+    margin: 0px;
+    width: 40%;
+    flex-direction: column;
+    border-radius: 25px;
+    text-align: center;
+}
+#contenedor-img-intro img {
+    width: 100%;
+    border-radius: 30px;
+    margin: 0px;
+}
+#contenedor-img-intro p {
+    margin: 10px 0px;
+}
+#contenedor-descripcion-intro {
+    width: 60%;
+}
+#contenedor-descripcion-intro h4 {
+    font-size: 29px;
+    margin: 20px;
+    font-weight: 700;
+    margin-left: 40px;
+    font-family: "Poppins";
+    letter-spacing: 3px;
+    text-align: center;
+}
+#contenedor-descripcion-intro p {
+    margin: 20px;
+    margin-left: 40px;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Poppins";
+    color: aliceblue;
+}

@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    max-width: 1018px;
+    margin: 0px auto;
+    /* background-color: rgb(209, 115, 0); */
+}
